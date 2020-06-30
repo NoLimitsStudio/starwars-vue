@@ -1,4 +1,6 @@
-# sw-db
+# Starwars Vue project
+
+## Not adapive, made on FHD
 
 ## Project setup
 ```

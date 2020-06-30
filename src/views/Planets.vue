@@ -11,13 +11,11 @@ import AppItemInfo from "../components/ItemInfo";
 export default {
   components: { AppItemsList, AppItemInfo },
   data: () => ({
-    type: "planet"
+    type: "planets"
   }),
-  computed: {},
   mounted() {
-    this.$store.dispatch("loadAllPlanets");
+    this.$store.dispatch("loadItems", this.type);
+    this.$store.dispatch("clearSelected");
   }
 };
 </script>
-
-<style lang="scss" scoped></style>

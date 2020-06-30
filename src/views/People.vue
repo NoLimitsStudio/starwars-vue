@@ -1,5 +1,5 @@
 <template>
-  <div class="people"></div>
+  <div class="planets"></div>
 </template>
 
 <script>

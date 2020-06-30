@@ -79,26 +79,23 @@ export default {
           };
         case "people":
           return {
-            'birth year': birth_year,
+            "birth year": birth_year,
             gender,
             height
           };
         case "starships":
           return {
             model,
-            'starship class': starship_class,
-            'cost in credits': cost_in_credits,
+            "starship class": starship_class,
+            "cost in credits": cost_in_credits,
             crew,
             passengers,
-            'cargo capacity': cargo_capacity
+            "cargo capacity": cargo_capacity
           };
         default:
           return {};
       }
     }
-  },
-  methods: {
-    // TODO: load info and icon
   }
 };
 </script>

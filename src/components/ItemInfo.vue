@@ -53,7 +53,7 @@ export default {
       }
     },
     toShow() {
-      return this.$store.getters["getSelected"];
+      return this.$store.state.selectedItem;
     },
     info() {
       const {

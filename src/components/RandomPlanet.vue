@@ -47,10 +47,10 @@ export default {
   }),
   computed: {
     url() {
-      return this.$store.getters["getUrl"];
+      return this.$store.state.imageUrl;
     },
     error() {
-      return this.$store.getters["getError"];
+      return this.$store.state.error;
     }
   },
   methods: {

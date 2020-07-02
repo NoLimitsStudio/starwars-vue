@@ -23,7 +23,7 @@ export default {
   },
   computed: {
     list() {
-      return this.$store.getters["getData"] || {};
+      return this.$store.state.data || {};
     }
   },
   methods: {

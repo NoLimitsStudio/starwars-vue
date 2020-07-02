@@ -43,12 +43,7 @@ export default new Vuex.Store({
       commit("SET_SELECTED", null);
     }
   },
-  getters: {
-    getUrl: state => state.imageUrl,
-    getError: state => state.error,
-    getSelected: state => state.selectedItem,
-    getData: state => state.data
-  },
+  getters: {},
   modules: {
     planets
   }
